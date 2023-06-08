@@ -7,13 +7,13 @@
 </div>
 
 ## Introdução
----
+
 Um projeto da cadeira de Tecnologias de Interface* desenvolvido a partir do tema "Interfaces technologies for children and learning" e com a junção do projeto da cadeira de Design de Jogos*. O desenvolvimento do projeto envolveu a criação de um controlador utilizando a placa [Arduino Esplora](https://docs.arduino.cc/retired/boards/arduino-esplora), projetado especialmente para um videojogo infantil. O controlador foi concebido levando em consideração o público-alvo composto por crianças com idades entre os 10 e os 16 anos. Através do controlador, os utilizadores terão a capacidade de interagir de forma intuitiva e divertida com o jogo, proporcionando uma experiência envolvente.
 
 \* - Cadeiras do Mestrado em Design e Multimédia ([MDM](https://www.dei.uc.pt/mdm/)), da Faculdade de Ciências e Tecnologia da Universidade de Coimbra ([FCTUC](https://www.uc.pt/fctuc/)).
 
 ## Requisitos
----
+
 <div align="center">
     <img src="media/Esplora_FSR_Circuit.png" alt="Arduino_Esplora_Circuit" height="280" />
 </div>
@@ -32,7 +32,7 @@ Um projeto da cadeira de Tecnologias de Interface* desenvolvido a partir do tema
   
 ## Unity
 
----
+
 
 Para iniciar o projeto no Unity são necessários os seguintes passos:
 
@@ -49,11 +49,9 @@ Para iniciar o projeto no Unity são necessários os seguintes passos:
 
 Quando todos os passos acima estiverem prontos, podemos passar para a comunicação entre o Unity e o Arduino.
 
----
+
 
 ## Comunicação Unity / Arduino
-
----
 
 Dentro da diretoria _Scripts_, no ficheiro _ArduinoGameController_, teremos de mudar a porta onde o arduino se encontra ligado. É necessário alterar a porta e o baud para configurar a comunicação entre os dois programas.
 
